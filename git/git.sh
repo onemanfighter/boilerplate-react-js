@@ -42,7 +42,7 @@ git config --global alias.pop "stash pop"
 git config --global alias.g "log --oneline --decorate --graph"
 git config --global alias.gr "log --pretty=format:'%h %ad \| %s%d [%an]' --graph --date=short"
 git config --global alias.gd "log --oneline --decorate"
-git config --global alias.gc "log --oneline --decorate --color"
+git config --global alias.gcr "log --oneline --decorate --color"
 git config --global alias.last "log -1 HEAD"
 
 echo "Done!"
