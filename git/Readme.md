@@ -48,8 +48,10 @@ sh git.sh
 
 ## Note
 
-This setup will add the git alias to the global level. If you want to add the alias to the global level, you can run the below command.
+This setup will add the git alias to the global level. If you want to add the alias to the global level, you can run the script command.
+
+## To remove existing alias from the global level
 
 ```bash
-sh .sh
+git config --global --unset alias.st
 ```
